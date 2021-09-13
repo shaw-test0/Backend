@@ -7,7 +7,7 @@ sudo apt-get install -y nodejs
 
 
 #create our working directory if it doesnt exist
-DIR="/home/ec2-user/backend"
+DIR="/home/ubuntu/backend"
 if [ -d "$DIR" ]; then
   echo "${DIR} exists"
 else
